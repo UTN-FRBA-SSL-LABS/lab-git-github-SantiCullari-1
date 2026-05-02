@@ -2,7 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(int a, int b) {
+int sumar(const int a, const int b) {
     return a + b;
 }
 
@@ -17,9 +17,14 @@ int restar(int a, int b) {
 int multiplicar(int a, int b) {
     return a * b; /* TODO: implementar */
 }
-
+//Se utiliza el operador interno * que suma a veces b
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(int n) {
+int esPar(const int n) {
     return (n % 2) == 0;
+}
+
+/*dividir*/
+int dividir (int a, int b){
+    return a - b; /*bug intencional*/
 }
