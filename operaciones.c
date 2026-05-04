@@ -21,8 +21,8 @@ int multiplicar(const int a,const int b) {
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
 int esPar(int n) {
-    return (n % 2) == 0;
-}
+    return (n % 2) == 0; /*version main*/
+} /*ver. main*/
 
 /*dividir*/
 int dividir (int a, int b){
